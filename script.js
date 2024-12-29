@@ -36,7 +36,7 @@ addBtn.addEventListener("click", () => {
     if (!existingImage) {
         const newImage = document.createElement("img");
         newImage.id = "my-image";
-        newImage.src = "/images/Фото-Хмільника.jpg";
+        newImage.src = "/images/city.jpg";
         newImage.alt = "City";
         newImage.style.display = "block";
         imageContainer.appendChild(newImage);
